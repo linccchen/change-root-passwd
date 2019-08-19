@@ -1,10 +1,10 @@
 # change-root-passwd
-将需要操作的云主机的ip，ssh的端口，账号，旧密码和新密码写到hosts.txt文件中，每一行代表一个主机
+Write the ip, ssh port, account number, old password and new password of the cloud host that needs to be operated to the hosts.txt file. Each line represents a host.
 
-比如
+example
 
 10.0.0.1 22 root old_passwd new_passwd
 
-然后执行 
+Then execute
 
 ./batch-chpasswd.py

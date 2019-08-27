@@ -10,6 +10,7 @@ example
 Then execute
 
 ```
+chmod +x batch-chapasswd.py chpasswd.exp
 ./batch-chpasswd.py
 ```
 

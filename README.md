@@ -3,18 +3,22 @@ Write the ip, ssh port, account number, old password and new password of the clo
 
 example
 
+```
 10.0.0.1 22 root old_passwd new_passwd
+```
 
 Then execute
 
+```
 ./batch-chpasswd.py
+```
 
 IF running have error: /usr/bin/expect: bad interpreter: No such file or directory ,so you need install software
 
 ```
 yum install tcl-devel
 yum install expect
-
 ```
+
 
 

@@ -7,7 +7,7 @@ def get_ip_and_passwd(fpath):
 
 
 def main():
-    fpath = './hosts.txt'
+    fpath = './hosts'
     for line in get_ip_and_passwd(fpath):
         if not line or line[0].startswith('#'):
             continue

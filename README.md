@@ -8,3 +8,7 @@ example
 Then execute
 
 ./batch-chpasswd.py
+
+IF running have error: /usr/bin/expect: bad interpreter: No such file or directory ,so you need install software
+yum install tcl-devel
+yum install expect
